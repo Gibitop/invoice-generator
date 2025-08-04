@@ -7,7 +7,7 @@
 
   const props: FormData = $props();
 
-  const currencyFormatter = makeCurrencyFormatter(props.currency);
+  const currencyFormatter = $derived(makeCurrencyFormatter(props.currency));
 
   const total = $derived(
     props.items.reduce((acc, item) => {
