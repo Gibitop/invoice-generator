@@ -72,7 +72,7 @@
   });
 </script>
 
-<main class="print:hidden w-screen h-screen flex justify-center gap-2">
+<main class="print:hidden w-screen h-screen flex justify-center gap-2 min-w-[1420px]">
   <Toaster position="top-center" />
 
   <div class="max-h-full overflow-y-auto px-4 py-4">
